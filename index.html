@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Buckeye Edge · Portal Lab Versions</title>
+<link rel="icon" href="icon.svg" type="image/svg+xml" />
+<style>
+  :root { --scarlet:#ba0c2f; --scarlet-50:#fbeef1; --ink:#1b1d21; --ink-2:#4b4f57; --ink-3:#7a7e86; --bg:#f4f4f2; --surface:#fff; --line:#e4e4e1; --side:#15171b; }
+  * { box-sizing: border-box; }
+  body { margin:0; font: 15px/1.5 "Inter", system-ui, -apple-system, "Segoe UI", sans-serif; background:var(--bg); color:var(--ink); }
+  header { background:var(--side); color:#fff; padding:36px 24px 30px; }
+  .wrap { max-width:1080px; margin:0 auto; }
+  .brand { font-weight:800; letter-spacing:.04em; font-size:13px; text-transform:uppercase; color:#c9ccd2; }
+  .brand b { color:#fff; } .brand span { color:#ff4d6d; }
+  h1 { margin:8px 0 6px; font-size:clamp(26px,4vw,38px); line-height:1.15; }
+  header p { margin:0; color:#c9ccd2; max-width:680px; }
+  main { padding:28px 24px 50px; }
+  .grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
+  .v { background:var(--surface); border:1px solid var(--line); border-radius:12px; padding:16px 18px; display:flex; flex-direction:column; gap:8px; text-decoration:none; color:inherit; transition:border-color .15s, box-shadow .15s, transform .15s; }
+  .v:hover, .v:focus-visible { border-color:var(--scarlet); box-shadow:0 4px 18px rgba(0,0,0,.07); transform:translateY(-1px); outline:none; }
+  .top { display:flex; align-items:center; gap:12px; }
+  .num { flex:none; width:44px; height:44px; border-radius:10px; background:var(--side); color:#fff; display:grid; place-items:center; font-weight:800; font-size:16px; }
+  .v.latest .num { background:var(--scarlet); }
+  .t { display:flex; flex-direction:column; min-width:0; }
+  .t b { font-size:16px; }
+  .url { font-size:13px; color:var(--scarlet); font-weight:600; overflow-wrap:anywhere; }
+  .d { margin:0; color:var(--ink-2); font-size:14px; }
+  .tags { display:flex; flex-wrap:wrap; gap:6px; margin-top:auto; }
+  .tag { font-size:11.5px; font-weight:600; border-radius:999px; padding:2px 9px; background:#eef0f2; color:var(--ink-2); }
+  .tag.live { background:#e5f4eb; color:#1f6b3d; }
+  .tag.prev { background:#fdf3e1; color:#8a5600; }
+  .tag.new { background:var(--scarlet-50); color:var(--scarlet); }
+  .note { margin-top:22px; font-size:13px; color:var(--ink-3); }
+  footer { font-size:12px; color:var(--ink-3); padding:0 24px 30px; }
+  @media (max-width:760px) { .grid { grid-template-columns:minmax(0,1fr); } header { padding:28px 18px 24px; } main { padding:20px 18px 40px; } }
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <div class="brand"><b>Buckeye</b> <span>Edge</span> · Portal Lab</div>
+  <h1>Every version, one page</h1>
+  <p>Each build is kept separately, so earlier versions stay exactly as they were. The newest is at the top.</p>
+</div></header>
+<main><div class="wrap">
+  <div class="grid">
+    <a class="v latest" href="./v7/" target="_blank" rel="noopener">
+      <div class="top"><span class="num">v7</span><div class="t"><b>AI Workforce, every position</b><span class="url">Open to anyone</span></div></div>
+      <p class="d">An advanced AI decision system built on agentic workflows. The AI Workforce at Work page shows agents carrying a portal entrant to the right coach's inbox at all 12 positions. Includes the new 3:04 explainer.</p>
+      <div class="tags"><span class="tag new">Latest</span><span class="tag live">Published</span></div>
+    </a>
+    <a class="v" href="./v6/" target="_blank" rel="noopener">
+      <div class="top"><span class="num">v6</span><div class="t"><b>How It Works</b><span class="url">Open to anyone</span></div></div>
+      <p class="d">The explanation layer: narrated video, this year and future years, gaps to close, guided tour, FAQ and glossary for Dan Cencer and the staff.</p>
+      <div class="tags"><span class="tag live">Published</span></div>
+    </a>
+    <a class="v" href="./v5/" target="_blank" rel="noopener">
+      <div class="top"><span class="num">v5</span><div class="t"><b>Talk to Edge</b><span class="url">Open to anyone</span></div></div>
+      <p class="d">Voice assistant, staff rooms and reports, leaderboard, and the first Staff Bots research agents.</p>
+      <div class="tags"><span class="tag live">Published</span></div>
+    </a>
+    <a class="v" href="./v4/" target="_blank" rel="noopener">
+      <div class="top"><span class="num">v4</span><div class="t"><b>Portal Watch and Signal Test</b><span class="url">Open to anyone</span></div></div>
+      <p class="d">Built from the two planning calls: Portal Watch on real public data, signals tested against real portal entries, roster needs and the Monday brief.</p>
+      <div class="tags"><span class="tag live">Published</span></div>
+    </a>
+    <a class="v" href="./v3/" target="_blank" rel="noopener">
+      <div class="top"><span class="num">v3</span><div class="t"><b>Recruiting workflow</b><span class="url">Open to anyone</span></div></div>
+      <p class="d">A broader recruiting workflow across staff roles.</p>
+      <div class="tags"><span class="tag live">Published</span></div>
+    </a>
+    <a class="v" href="./v2/" target="_blank" rel="noopener">
+      <div class="top"><span class="num">v2</span><div class="t"><b>Real QB backtest</b><span class="url">Open to anyone</span></div></div>
+      <p class="d">Adds the real quarterback backtest, model calibration and the validity scorecard.</p>
+      <div class="tags"><span class="tag live">Published</span></div>
+    </a>
+    <a class="v" href="./v1/" target="_blank" rel="noopener">
+      <div class="top"><span class="num">v1</span><div class="t"><b>Live research and College Data</b><span class="url">Open to anyone</span></div></div>
+      <p class="d">Adds Perplexity deep research and live portal intel on top of the original model.</p>
+      <div class="tags"><span class="tag live">Published</span></div>
+    </a>
+    <a class="v" href="https://buckeyeedge.pplx.app" target="_blank" rel="noopener">
+      <div class="top"><span class="num">v0</span><div class="t"><b>Original Bayesian demo</b><span class="url">buckeyeedge.pplx.app (sign-in still required)</span></div></div>
+      <p class="d">The first mock-up: the transfer portal ontology and the Bayesian player rating model.</p>
+      <div class="tags"><span class="tag live">Published</span></div>
+    </a>
+  </div>
+  <p class="note">Links open in a new tab. Every version opens for anyone, no sign-in.</p>
+</div></main>
+<footer><div class="wrap">Concept demo built by FuzeBox. Not affiliated with or endorsed by The Ohio State University.</div></footer>
+</body>
+</html>

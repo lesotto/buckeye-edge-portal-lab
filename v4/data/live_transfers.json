@@ -1,0 +1,707 @@
+{
+ "retrieved_at": "2026-10-29 20:01 UTC",
+ "players": [
+  {
+   "name": "Xavier Atkins",
+   "pos": "LB",
+   "school": "Auburn",
+   "conf": "SEC",
+   "yr": "Junior",
+   "elig": "1 season remaining",
+   "stats": "37 tackles, 3 sacks in five starts (2026)",
+   "why": "Announced on social media that he plans to enter the transfer portal at the appropriate time; he previously transferred from LSU to Auburn.",
+   "status": "announced_intent",
+   "source_date": "2026-10-20",
+   "sig": [
+    "intent",
+    "moved"
+   ],
+   "urls": [
+    "https://www.espn.com/college-football/story/_/id/50224689/auburn-dismissed-star-linebacker-xavier-atkins",
+    "https://www.cbssports.com/college-football/news/auburn-dismisses-xavier-atkins-all-transfer-portal/"
+   ]
+  },
+  {
+   "name": "Cutter Boley",
+   "pos": "QB",
+   "school": "Arizona State",
+   "conf": "Big 12",
+   "yr": "Not stated",
+   "elig": "Not established in the cited reporting",
+   "stats": "No 2026 statistical line provided in the cited report.",
+   "why": "Was benched; The Athletic describes a change of scenery as a possible option. Previously transferred from Kentucky to Arizona State.",
+   "status": "watch_list",
+   "source_date": "2026-10-26",
+   "sig": [
+    "depth",
+    "moved"
+   ],
+   "urls": [
+    "https://www.nytimes.com/athletic/7725404/2026/10/26/arch-manning-marcel-reed-quarterback-future/"
+   ]
+  },
+  {
+   "name": "Dylan Raiola",
+   "pos": "QB",
+   "school": "Oregon",
+   "conf": "Big Ten",
+   "yr": "Junior",
+   "elig": "Not established in the cited reporting",
+   "stats": "No season-total 2026 statistical line provided in the cited reports.",
+   "why": "After being benched during the season and not establishing a secure path to the 2027 starting job, reports say he may consider transferring if Oregon adds outside competition. Previously transferred from Nebraska.",
+   "status": "watch_list",
+   "source_date": "2026-10-26",
+   "sig": [
+    "depth",
+    "moved"
+   ],
+   "urls": [
+    "https://www.nytimes.com/athletic/7725404/2026/10/26/arch-manning-marcel-reed-quarterback-future/",
+    "https://sports.yahoo.com/articles/college-football-transfer-portal-quarterback-173253706.html"
+   ]
+  },
+  {
+   "name": "DJ Kelly",
+   "pos": "CB",
+   "school": "James Madison",
+   "conf": "Sun Belt",
+   "yr": "Sophomore",
+   "elig": "2 seasons",
+   "stats": "Four interceptions, including two in the red zone against Marshall; team-high at the time of the report.",
+   "why": "Yahoo identified him as a possible target, noting his production, two years of eligibility and prior transfer from Toledo.",
+   "status": "watch_list",
+   "source_date": "2026-10-19",
+   "sig": [
+    "up",
+    "elig",
+    "moved"
+   ],
+   "urls": [
+    "https://sports.yahoo.com/articles/college-football-transfer-portal-7-192626372.html"
+   ]
+  },
+  {
+   "name": "Jahiem White",
+   "pos": "RB",
+   "school": "North Texas",
+   "conf": "American",
+   "yr": "None",
+   "elig": "2 seasons",
+   "stats": "687 rushing yards and 9 TD on 96 carries through six games (7.2 yards per carry); ran for 219 yards against Tulsa.",
+   "why": "Yahoo said his strong North Texas production showed Power Four staffs he had returned to the form he displayed at West Virginia; he had transferred to North Texas for a fresh start.",
+   "status": "watch_list",
+   "source_date": "2026-10-19",
+   "sig": [
+    "up",
+    "elig",
+    "moved"
+   ],
+   "urls": [
+    "https://sports.yahoo.com/articles/college-football-transfer-portal-7-192626372.html"
+   ]
+  },
+  {
+   "name": "Andrew Zock",
+   "pos": "Edge",
+   "school": "Toledo",
+   "conf": "MAC",
+   "yr": "Junior",
+   "elig": "1 season",
+   "stats": "Seven sacks; had two sacks, nine quarterback hurries and a forced fumble against Eastern Michigan.",
+   "why": "Yahoo highlighted his production after he moved from Mercer to Toledo and noted Colorado scheduled a visit with him during the previous winter portal cycle.",
+   "status": "watch_list",
+   "source_date": "2026-10-19",
+   "sig": [
+    "up",
+    "moved"
+   ],
+   "urls": [
+    "https://sports.yahoo.com/articles/college-football-transfer-portal-7-192626372.html"
+   ]
+  },
+  {
+   "name": "Bryce Underwood",
+   "pos": "QB",
+   "school": "Michigan",
+   "conf": "Big Ten",
+   "yr": "Sophomore",
+   "elig": "Two seasons remaining",
+   "stats": "2026: 924 passing yards, 5 TD, 6 INT; 222 rushing yards, 2 TD.",
+   "why": "Benched for true freshman Tommy Carr; The Athletic says he will likely need a change of scenery. CBS lists his 2026 passing line.",
+   "status": "reported_likely",
+   "source_date": "2026-10-26",
+   "sig": [
+    "depth",
+    "elig"
+   ],
+   "urls": [
+    "https://www.nytimes.com/athletic/7725404/2026/10/26/arch-manning-marcel-reed-quarterback-future/",
+    "https://www.cbssports.com/college-football/players/28906638/bryce-underwood/"
+   ]
+  },
+  {
+   "name": "Julian Lewis",
+   "pos": "QB",
+   "school": "Colorado",
+   "conf": "Big 12",
+   "yr": "Sophomore",
+   "elig": "Three seasons remaining",
+   "stats": "2026: 733 passing yards, 6 TD, 2 INT in four games.",
+   "why": "Benched for Isaac Wilson after a disappointing season; The Athletic says the same goes for Lewis as for other quarterbacks who will likely need a new school.",
+   "status": "reported_likely",
+   "source_date": "2026-10-26",
+   "sig": [
+    "depth",
+    "elig"
+   ],
+   "urls": [
+    "https://www.nytimes.com/athletic/7725404/2026/10/26/arch-manning-marcel-reed-quarterback-future/",
+    "https://cfbstats.com/2026/player/157/50311764/index.html"
+   ]
+  },
+  {
+   "name": "Christopher Vizzina",
+   "pos": "QB",
+   "school": "Clemson",
+   "conf": "ACC",
+   "yr": "Senior",
+   "elig": "Not established in the cited reporting",
+   "stats": "No 2026 statistical line provided in the cited report.",
+   "why": "Lost the starting role to true freshman Tait Reynolds; The Athletic says he will likely have to find another school to get a starting opportunity.",
+   "status": "reported_likely",
+   "source_date": "2026-10-26",
+   "sig": [
+    "depth"
+   ],
+   "urls": [
+    "https://www.nytimes.com/athletic/7725404/2026/10/26/arch-manning-marcel-reed-quarterback-future/"
+   ]
+  },
+  {
+   "name": "Faizon Brandon",
+   "pos": "QB",
+   "school": "Tennessee",
+   "conf": "SEC",
+   "yr": "Freshman",
+   "elig": "Not established in the cited reporting",
+   "stats": "No 2026 statistical line provided in the cited report.",
+   "why": "Benched in favor of George MacIntyre after four games. The Athletic explicitly says his presence on its watch list does not mean he is expected to leave.",
+   "status": "watch_list",
+   "source_date": "2026-10-26",
+   "sig": [
+    "depth"
+   ],
+   "urls": [
+    "https://www.nytimes.com/athletic/7725404/2026/10/26/arch-manning-marcel-reed-quarterback-future/"
+   ]
+  },
+  {
+   "name": "Demond Williams Jr.",
+   "pos": "QB",
+   "school": "Washington",
+   "conf": "Big Ten",
+   "yr": "Sophomore",
+   "elig": "Not established in the cited reporting",
+   "stats": "No 2026 season-total statistical line provided in the cited report.",
+   "why": "Split first-team reps with Elijah Brown, prompting questions about his standing. His earlier portal declaration was walked back, so it is not treated as current intent.",
+   "status": "watch_list",
+   "source_date": "2026-10-26",
+   "sig": [
+    "depth"
+   ],
+   "urls": [
+    "https://www.nytimes.com/athletic/7725404/2026/10/26/arch-manning-marcel-reed-quarterback-future/"
+   ]
+  },
+  {
+   "name": "Malik Washington",
+   "pos": "QB",
+   "school": "Maryland (Big Ten)",
+   "conf": "Big Ten",
+   "yr": "Sophomore",
+   "elig": "At least 2 seasons",
+   "stats": "Through 7 games: 1,615 passing yards, 9 TD, 6 INT.",
+   "why": "A reporter said Washington stopped short of recommitting after Mike Locksley\u2019s firing; he said he was focused on finishing the season. The report identified him as a player who could attract portal interest, but did not report an intent to transfer.",
+   "status": "watch_list",
+   "source_date": "2026-10-27",
+   "sig": [
+    "coach",
+    "stay",
+    "elig"
+   ],
+   "urls": [
+    "https://www.baltimoresun.com/2026/10/27/maryland-football-malik-washington-sidney-stewart-futures-mike-locksley-firing/"
+   ]
+  },
+  {
+   "name": "Sidney Stewart",
+   "pos": "OLB",
+   "school": "Maryland (Big Ten)",
+   "conf": "Big Ten",
+   "yr": "Sophomore",
+   "elig": "At least 2 seasons",
+   "stats": "Through 7 games: 26 tackles, 2 sacks, 2 forced fumbles; recorded 7 sacks and 10.5 TFL in 2025.",
+   "why": "Stewart acknowledged that Locksley\u2019s departure would make him reconsider his options. The reporter said neither he nor Washington had indicated an intent to enter the portal.",
+   "status": "watch_list",
+   "source_date": "2026-10-27",
+   "sig": [
+    "coach",
+    "stay",
+    "elig"
+   ],
+   "urls": [
+    "https://www.baltimoresun.com/2026/10/27/maryland-football-malik-washington-sidney-stewart-futures-mike-locksley-firing/"
+   ]
+  },
+  {
+   "name": "Keenan Jackson",
+   "pos": "WR",
+   "school": "NC State (ACC)",
+   "conf": "ACC",
+   "yr": "Junior",
+   "elig": "2 more years",
+   "stats": "Through 7 games: 30 receptions, 456 yards, 6 TD.",
+   "why": "A local report listed Jackson among possible transfer targets if he makes himself available; ESPN said retaining him should be a priority after Dave Doeren\u2019s firing. Neither source reported a current intent to enter the portal.",
+   "status": "watch_list",
+   "source_date": "2026-10-24",
+   "sig": [
+    "coach",
+    "stay",
+    "elig"
+   ],
+   "urls": [
+    "https://www.espn.co.uk/college-football/story/_/id/50270580/nc-state-doeren-candidates-roster",
+    "https://www.yardbarker.com/general_sports/articles/nc_state_possible_transfers_to_watch/s1_17106_44474868"
+   ]
+  },
+  {
+   "name": "Braden Atkinson",
+   "pos": "QB",
+   "school": "Oregon State",
+   "conf": "Pac-12",
+   "yr": "Not stated",
+   "elig": "Not established in the cited reporting",
+   "stats": "2,604 passing yards, 24 TD, 2 INT through the cited midseason report.",
+   "why": "FCS-to-FBS production could attract Power Four interest; reporting also says Oregon State will prioritize retention. This is a potential upward-mobility case, not a reported desire to leave.",
+   "status": "watch_list",
+   "source_date": "2026-10-22",
+   "sig": [
+    "elig",
+    "moved",
+    "stay",
+    "up"
+   ],
+   "urls": [
+    "https://sports.yahoo.com/articles/best-college-football-transfers-2026-151000782.html",
+    "https://sports.yahoo.com/articles/college-football-transfer-portal-7-192626372.html"
+   ]
+  },
+  {
+   "name": "Dylan Riley",
+   "pos": "RB",
+   "school": "Boise State",
+   "conf": "Pac-12",
+   "yr": "Junior",
+   "elig": "1 season",
+   "stats": "835 rushing yards; fourth in FBS at the time of the report. Had a career-best 206-yard game against Memphis and three runs of 70-plus yards.",
+   "why": "Yahoo said Power Four teams able to offer him a lead-back role could have a strong pitch, as he shares carries at Boise State.",
+   "status": "watch_list",
+   "source_date": "2026-10-19",
+   "sig": [
+    "up"
+   ],
+   "urls": [
+    "https://sports.yahoo.com/articles/college-football-transfer-portal-7-192626372.html"
+   ]
+  },
+  {
+   "name": "CJ Bailey",
+   "pos": "QB",
+   "school": "NC State (ACC)",
+   "conf": "ACC",
+   "yr": "Junior",
+   "elig": "Not stated in source",
+   "stats": "Through 7 games: 1,763 passing yards, 11 passing TD; career totals cited by ESPN: 7,952 total yards and 66 total TD since 2024.",
+   "why": "ESPN said the coaching change could bring tampering and that Bailey would have good options if he entered the portal. He had previously turned down portal interest and re-signed with NC State; no current intent to leave was reported.",
+   "status": "watch_list",
+   "source_date": "2026-10-24",
+   "sig": [
+    "coach",
+    "stay"
+   ],
+   "urls": [
+    "https://www.espn.co.uk/college-football/story/_/id/50270580/nc-state-doeren-candidates-roster"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "title": "Transfer portal isn't open, but the bidding already is: \u2018That mother-(bleep) is wide open'",
+   "url": "https://www.usatoday.com/story/sports/ncaaf/2026/10/27/college-football-transfer-portal-when-window-open-rumors-rules/92451447007/",
+   "date": "2026-10-27",
+   "snippet": "Transfer portal isn't open, but the bidding already is: 'That mother-(bleep) is wide open'\n...\nThe NCAA Transfer Portal for college football, now in Year 2 of its single-window system, officially opens for two weeks beginning Jan. 2, 2027.\n...\nThere are already three P-4 jobs ope"
+  },
+  {
+   "title": "Which teams will be in the market for a transfer QB? Plus Group of 6 players to watch: Portal Buzz",
+   "url": "https://www.nytimes.com/athletic/7732345/2026/10/29/transfer-portal-quarterback-teams-in-need/",
+   "date": "2026-10-29",
+   "snippet": "The transfer portal is still two months away from opening, yet coaching staff and personnel departments are already strategizing to enhance their rosters for 2027."
+  },
+  {
+   "title": "2027 College Football Transfer Portal Latest Activity",
+   "url": "https://247sports.com/season/2027-football/transferportal/",
+   "date": "2026-04-01",
+   "snippet": "## Latest update includes announced and verified entries:10/20/2026 8:34:00 AM CST\n...\n- ### Xavier Atkins\n0.8900\nHS\nLB\n6-0 / 210\nEntered\n...\nThe 247Sports Transfer Portal includes players who have either announced their intent to enter or have officially entered the NCAA Transfe"
+  },
+  {
+   "title": "College Football Transfer Portal and NIL Rules (2026-27)",
+   "url": "https://www.nationalfootballpost.com/2026/10/23/college-football-transfer-portal-nil",
+   "date": "2026-10-23",
+   "snippet": "# College Football Transfer Portal and NIL Rules Explained\nThe NCAA transfer portal is the database a player enters when he wants to talk with other schools, and in football it now opens for a single short window each January.\n...\n## What the transfer portal is\nA Division I playe"
+  },
+  {
+   "title": "Midseason Transfer Portal Survival When Players Walk Away",
+   "url": "https://sportsorca.com/college-sports/ncaaf/midseason-transfer-portal/",
+   "date": "2026-10-07",
+   "snippet": "The NCAA\u2019s adopted Division I football rules place the ordinary transfer-notification window at **January 2\u201316**, with specified exceptions.\nAs of October 7, the NCAA was reviewing a proposed **10-day January window**.\nNeither arrangement opens an ordinary November window because"
+  },
+  {
+   "title": "College Football Transfer Portal: The Quarterback Decisions ...",
+   "url": "https://sports.yahoo.com/articles/college-football-transfer-portal-quarterback-173253706.html?fr=sycsrp_catchall",
+   "date": "2026-10-20",
+   "snippet": "As the 2026 college football season reaches its midpoint, the transfer portal looms larger than ever.\nPrograms are already calculating roster needs for 2027, and several quarterbacks sit at the center of those calculations.\n...\nA handful of names have emerged as the most closely "
+  },
+  {
+   "title": "Midseason transfer portal entry does not freeze college ...",
+   "url": "https://sportsorca.com/nfl/midseason-transfer-portal-entry-eligibility/",
+   "date": "2026-10-14",
+   "snippet": "There is one problem: under current Division I football rules, he may not actually be allowed into the NCAA Transfer Portal yet.\n...\nAnnouncing an intention to transfer, stepping away from a team and officially entering the portal are different actions.\n...\nOn Oct. 7, 2026, the D"
+  },
+  {
+   "title": "Arch Manning is aiming to skip the 2027 NFL Draft and ...",
+   "url": "https://www.marca.com/en/ncaa/2026/10/28/arch-manning-is-aiming-to-skip-the-2027-nfl-draft-and-enter-the-transfer-portal-to-play-for-new-team.html",
+   "date": "2026-10-28",
+   "snippet": "Arch Manning is aiming to skip the 2027 NFL Draft and enter the transfer portal to play for a new team | MARCA\n...\n- College Basketball\n...\n# Arch Manning is aiming to skip the 2027 NFL Draft and enter the transfer portal to play for a new team\nThe Texas quarterback's inconsisten"
+  },
+  {
+   "title": "College Football's Leading Wide Receiver Makes ...",
+   "url": "https://sports.yahoo.com/articles/college-footballs-leading-wide-receiver-190210891.html",
+   "date": "2026-10-24",
+   "snippet": "The most productive wide receiver in college football was sure to be one of the most prominent names in the transfer portal ahead of the 2027 season.\nInstead, he'll be staying put at the one school that made him an offer after making what could be one of the most consequential de"
+  },
+  {
+   "title": "2027 College Football Transfer Portal Latest Activity - 247Sports",
+   "url": "https://247sports.com/college/transfer-portal/season/2027-football/transferportal/",
+   "date": "2026-04-01",
+   "snippet": "The 247Sports Transfer Portal includes players who have either announced their intent to enter or have officially entered the NCAA Transfer Portal."
+  },
+  {
+   "title": "Jesse Legree announces he\u2019ll stay at Oregon State in 2027 amid breakout freshman season",
+   "url": "https://www.nytimes.com/athletic/7717815/2026/10/23/jesse-legree-oregon-state-returning/?unlocked_article_code=1.K1E.WMGp.Ji4b3k2qA_yW&source=emp_shared_article",
+   "date": "2026-10-23",
+   "snippet": "Oregon State star freshman receiver Jesse Legree announced Friday that he will remain with the Beavers and not enter the transfer portal after the season.\n\u201cI will be signing to the Oregon State Beavers for the 2027 through 2028 season,\u201d Legree told 247Sports on Friday during an i"
+  },
+  {
+   "title": "Transfer Portal - college",
+   "url": "https://www.si.com/fannation/college/cfb-hq/ncaa-transfer-portal",
+   "date": "2026-10-26",
+   "snippet": "Another uber-active transfer portal window is coming fast for college football, and some notable quarterback names could be on the market in 2027."
+  },
+  {
+   "title": "Complete Guide to NCAA Transfer Portal - SportsRecruits",
+   "url": "https://sportsrecruits.com/resources/ncaa-eligibility-and-rules/transfer-portal",
+   "date": "2026-10-20",
+   "snippet": "Below are the Division I Notification of Transfer windows for the 2026-2027 academic year, from the NCAA's official list.\n...\n- **Football (FBS and FCS):** January 4, 2027 to January 13, 2027\n...\nTransferring used to come with a redshirt calculation attached: if you'd already tra"
+  },
+  {
+   "title": "2026 College Football Transfer Portal Latest Activity - 247Sports",
+   "url": "https://247sports.com/season/2026-football/transferportal/",
+   "date": "2026-04-01",
+   "snippet": "## Latest update includes announced and verified entries:10/14/2026 11:14:00 AM CST\n...\n## 10/14/26 Updates\n...\nTeams/Crystal Ball %\n- ### Alex Bauman\n0.8200\nHS\nTE\n6-5 / 250\nCommitted\n- ### Alex Bauman\n0.8200\nHS\nTE\n6-5 / 250\nEntered\n- ### Jeremiah Earby\n0.8700\nHS\nCB\n6-2 / 181\nCom"
+  },
+  {
+   "title": "2026 College Football Transfer Portal",
+   "url": "https://247sports.com/season/2026-football/TransferPortalTop/?positionKey=60",
+   "date": "2026-04-01",
+   "snippet": "## Latest update includes announced and verified entries:10/14/2026 11:14:36 AM CST\n...\nThe 247Sports Transfer Portal includes players who have either announced their intent to enter or have officially entered the NCAA Transfer Portal.\nUnder the college transfer policy, when a st"
+  },
+  {
+   "title": "Auburn dismisses Xavier Atkins, All-American defender reveals intentions to enter transfer portal",
+   "url": "https://www.cbssports.com/college-football/news/auburn-dismisses-xavier-atkins-all-transfer-portal/",
+   "date": "2026-10-20",
+   "snippet": "# Auburn dismisses Xavier Atkins, All-American defender reveals intentions to enter transfer portal\n## What happens next for one of college football's top defensive players?\nOct 20, 2026\nat 9:34 am ET \u2022 2 min read\n...\nAuburn is moving on from All-American linebacker Xavier Atkins"
+  },
+  {
+   "title": "Top NCAA Wide Receiver Chooses 2027 Return Over Move",
+   "url": "https://sports.yahoo.com/articles/top-ncaa-wide-receiver-chooses-151000266.html",
+   "date": "2026-10-24",
+   "snippet": "Sat, October 24, 2026 at 3:10 PM UTC\u00b7\n3 min read\nOregon State Beavers wide receiver Jesse Legree has ended the uncertainty about his college football future and whether or not he'd enter the transfer portal ahead of next season.\nLegree, who leads the nation in receiving yards, an"
+  },
+  {
+   "title": "Jesse Legree announces he\u2019ll stay at Oregon State in 2027 amid breakout freshman season",
+   "url": "https://www.nytimes.com/athletic/7717815/2026/10/23/jesse-legree-oregon-state-returning",
+   "date": "2026-10-23",
+   "snippet": "Oregon State star freshman receiver Jesse Legree announced Friday that he will remain with the Beavers and not enter the transfer portal after the season.\n\u201cI will be signing to the Oregon State Beavers for the 2027 through 2028 season,\u201d Legree told 247Sports on Friday during an i"
+  },
+  {
+   "title": "College football transfer portal hasn\u2019t opened. The bidding already has",
+   "url": "https://www.floridatoday.com/story/sports/ncaaf/2026/10/27/college-football-transfer-portal-when-window-open-rumors-rules/92451447007/",
+   "date": "2026-10-27",
+   "snippet": "The NCAA Transfer Portal for college football, now in Year 2 of its single-window system, officially opens for two weeks beginning Jan. 2, 2027.\n...\nAt this point, the upper tier of quarterbacks who could enter the portal isn\u2019t as clear as it was during the 2025 season, when Bren"
+  },
+  {
+   "title": "Sources: Auburn dismisses star linebacker Xavier Atkins",
+   "url": "https://www.espn.com/college-football/story/_/id/50224689/auburn-dismissed-star-linebacker-xavier-atkins",
+   "date": "2026-10-20",
+   "snippet": "Auburn dismissed star linebacker Xavier Atkins, sources told ESPN on Monday night.\n...\nAtkins commented on the situation in a post on X early Tuesday morning.\nWhile he did not confirm his dismissal, he said he plans to enter the transfer portal.\n> I have nothing but respect Aubur"
+  },
+  {
+   "title": "The Quarterback Decisions to Watch Before 2027",
+   "url": "https://sports.yahoo.com/articles/college-football-transfer-portal-quarterback-173253706.html",
+   "date": "2026-10-20",
+   "snippet": "Tue, Oct 20, 2026\u00b7\n...\nAs the 2026 college football season reaches its midpoint, the transfer portal looms larger than ever.\nPrograms are already calculating roster needs for 2027, and several quarterbacks sit at the center of those calculations.\n...\nA handful of names have emerg"
+  },
+  {
+   "title": "Big 12 Recruiting - Heartland College Sports",
+   "url": "https://www.heartlandcollegesports.com/66521-2/",
+   "date": "2025-12-14",
+   "snippet": "- Baylor DB Caden Jenkins Announces Transfer Portal Plansby Joe TilleryCaden Jenkins is officially in the transfer portal, and while that news doesn\u2019t shock anyone, it does bring some finality to what\u2019s been a messy couple of weeks in Waco.\n...\n- UCF TE Kylan Fox to Enter Transfe"
+  },
+  {
+   "title": "FBS QB Notebook - Gunslinger Buzz Daily 1/14/2026",
+   "url": "https://www.gunslingerbuzz.com/p/fbs-qb-notebook-gunslinger-buzz-daily-28d",
+   "date": "2026-01-14",
+   "snippet": "0-1-0% 0-0-0 | 0-0-0\nDec. 29, 2025 - Trever Jackson (FL) will enter the transfer portal, On3\u2019s Hayes Fawcett reported.\nHe committed to the 2024 Arkansas transfer portal class from Florida State (FBS) on April 24, 2025.\n...\n#### Joaquin Kavouklis (2027)\nJuly 3, 2025 - Joaquin Kavo"
+  },
+  {
+   "title": "2027 QB Recruiting Notebook - Gunslinger Buzz Daily 1/9 ...",
+   "url": "https://www.gunslingerbuzz.com/p/2027-qb-recruiting-notebook-gunslinger",
+   "date": "2026-01-09",
+   "snippet": "The transfer portal remains open until Jan. 16, and we\u2019re in a recruiting contact period for FBS and FCS programs through Saturday.\nToday\u2019s edition includes a roundup of the latest quarterback transactions and a look at the recent commitments and decommitments from the 2027 QB re"
+  },
+  {
+   "title": "Troy Trojans 2027 College Football Transfer Portal Latest Activity",
+   "url": "https://247sports.com/college/troy/season/2027-football/transferportal/",
+   "date": "2026-04-01",
+   "snippet": "# Troy Trojans 2027 College Football Transfer Portal Latest Activity\n## Latest update includes announced and verified entries:10/14/2026 11:14:36 AM CST\n...\nThe 247Sports Transfer Portal includes players who have either announced their intent to enter or have officially entered t"
+  },
+  {
+   "title": "College football coaching carousel 2026: Tracking all the ...",
+   "url": "https://www.cbssports.com/college-football/news/college-football-coaching-carousel-tracker-grades-2026/",
+   "date": "2026-10-27",
+   "snippet": "# College football coaching carousel 2026: Tracking moves as Maryland, NC State, Baylor make changes\n## Get the latest on the college football coaching carousel as CBS Sports tracks new hires and fires\nThe FBS hired 32 new head coaches, including 17 in the four power conferences,"
+  },
+  {
+   "title": "Tracker for every FBS coach change in 2026",
+   "url": "https://sports.yahoo.com/articles/college-football-coaching-carousel-tracker-163144469.html",
+   "date": "2026-10-25",
+   "snippet": "# College football coaching carousel: Tracker for every FBS coach change in 2026\nThree Power 4 coaching jobs are open heading into Week 9. Maryland fired Mike Locksley, NC State parted ways with Dave Doeren and Baylor moved on from Dave Aranda.\n...\n## College football coaching ch"
+  },
+  {
+   "title": "Why the 2026 coaching carousel could get a lot bigger",
+   "url": "https://www.cbssports.com/college-football/news/lincoln-riley-deion-sanders-and-kyle-whittingham-inside-the-jobs-that-could-shake-up-the-coaching-carousel/",
+   "date": "2026-10-28",
+   "snippet": "## Three FBS jobs are open heading into Halloween weekend, and industry sources say a bigger domino could be next\nWhat was initially expected to be a slow college football coaching cycle began to pick up steam over the weekend with NC State and Baylor firing their longtime head c"
+  },
+  {
+   "title": "College Football Coaching Carousel: Who Has Already Been ...",
+   "url": "https://www.rockytopinsider.com/2026/10/26/college-football-coaching-carousel-who-has-already-been-fired-across-at-the-fbs-level/",
+   "date": "2026-10-26",
+   "snippet": "We\u2019re now eight weeks into the college football season, and multiple FBS and Power Four jobs have opened up.\nLast week, Maryland let go of Mike Locksley as its head coach.\nThis week, Baylor fired Dave Aranda and NC State fired Dave Doeren.\nThat marks three big-time coaching jobs "
+  },
+  {
+   "title": "2026 college football coaching changes: Every coach fired this season",
+   "url": "https://www.tennessean.com/picture-gallery/sports/ncaaf/2026/10/25/college-football-coaches-fired-2026-season-changes/92430958007/",
+   "date": "2026-10-25",
+   "snippet": "# 2026 college football coaching changes: Every coach fired this season\n...\nJohn E. Moore III, Getty Images\n**Baylor:** Dave Aranda (fired Oct 25).\nAranda was 40-40 during his seven seasons in charge in Waco.\nChris Jones, IMAGN IMAGES\n**NC State:** Dave Doeren (fired Oct. 24).\nDo"
+  },
+  {
+   "title": "NC State fires Dave Doeren after 14 seasons: What's next for Wolfpack football",
+   "url": "https://www.charlotteobserver.com/sports/college/article317784315.html",
+   "date": "2026-10-26",
+   "snippet": "Updated October 26, 2026 6:44 PM\n...\nAthletic Director Boo Corrigan fired head coach Dave Doeren on Saturday night after 14 seasons, a decision that triggered a cascade of changes inside the N.C. State athletic department and launched a national search that will shape the program"
+  },
+  {
+   "title": "Which college football coach will be fired next? The Power Four's hottest seats by tier",
+   "url": "https://www.cbssports.com/college-football/news/college-football-coach-fired-hottest-seats-tier/",
+   "date": "2026-10-22",
+   "snippet": "Mike Locksley became the first coach fired this season as Maryland made the call to move on Wednesday.\nBut while October is still early to fire a coach, it actually bucks the recent trend.\nThis time last year, there had already been seven FBS coaches fired.\nFive Power Four coache"
+  },
+  {
+   "title": "Maryland's Mike Locksley Is First FBS Coach Fired, Owed ...",
+   "url": "https://sports.yahoo.com/articles/maryland-mike-locksley-first-fbs-172421633.html",
+   "date": "2026-10-21",
+   "snippet": "Wed, October 21, 2026 at 5:24 PM UTC\u00b7\n...\nOn Wednesday, Maryland football made the first in-season head coaching change of the 2026 college football season, firing Mike Locksley.\n...\nFollowing his firing, Locksley is owed nearly $10 million from his deal.\n...\nDefensive coordinato"
+  },
+  {
+   "title": "College football coaching carousel picks up speed. Who is ...",
+   "url": "https://sports.yahoo.com/articles/college-football-coaching-carousel-picks-090831873.html",
+   "date": "2026-10-26",
+   "snippet": "By Sunday, Oct. 25, the wheel had spun twice more.\nBaylor fired Dave Aranda.\nNC State dumped Dave Doeren.\n...\n**Baylor:** Dave Aranda (fired Oct 25).\nAranda was 40-40 during his seven seasons in charge in Waco.\n...\n**NC State:** Dave Doeren (fired Oct. 24).\nDoeren was fired after"
+  },
+  {
+   "title": "NC State coaching change, Dave Doeren questions answered |...",
+   "url": "https://www.newsobserver.com/sports/college/acc/nc-state/article317788948.html",
+   "date": "2026-10-27",
+   "snippet": "- N.C. State fired Dave Doeren on Oct. 24 after 14 seasons and a 98-74 record.\n- Todd Goebbel will guide the Wolfpack through the rest of the season.\n- N.C. State said it will conduct a national search for Doeren\u2019s replacement.\n...\nThe Wolfpack fired Dave Doeren this weekend, fol"
+  },
+  {
+   "title": "The buyout economics of the 2026-27 coaching carousel: Baylor ...",
+   "url": "https://www.cbssports.com/college-football/news/buyout-2026-27-coaching-carousel/",
+   "date": "2026-10-25",
+   "snippet": "Baylor became the third Power Four program to fire its head coach on Sunday when it dismissed Dave Aranda after seven seasons.\nBaylor joined North Carolina State and Maryland as the coaching carousel finally got spinning in late October.\n...\n**Fired coach:** Dave Aranda (40-40 in"
+  },
+  {
+   "title": "2026-27 college football coaching carousel: What we\u2019re hearing on Maryland, NC State and Baylor",
+   "url": "https://247sports.com/college/georgia/article/2026-27-college-football-coaching-carousel-what-were-hearing-on-maryland-nc-state-and-baylor-291875276/",
+   "date": "2026-10-28",
+   "snippet": "The 2026-27 coaching carousel is underway.\nMaryland, NC State and Baylor have all moved on from their head coaches in the past week, and the first names are starting to surface.\n...\n|School|Coach fired|Date fired|Record at school|2026 record|\n|--|--|--|--|--|\n|**Maryland**|Mike L"
+  },
+  {
+   "title": "Five Baylor football players the next Bears coach should ...",
+   "url": "https://247sports.com/article/baylor-bears-football-players-transferring-dave-aranda-fired-jaelin-battle-ryelan-morris-london-smith-291874827/",
+   "date": "2026-10-28",
+   "snippet": "## Baylor's next coach will have work to do in the transfer portal, but these five players could provide a foundation for the 2027 roster\n...\nFive Baylor football players the next Bears coach should keep from transferring after Dave Aranda's firing 247Sports Embed Resource247 Log"
+  },
+  {
+   "title": "2026 college football coaching changes: Every coach fired this season",
+   "url": "https://www.yahoo.com/news/slideshows/2026-college-football-coaching-changes-160249562.html",
+   "date": "2026-10-25",
+   "snippet": "Updated Sun, October 25, 2026 at 4:02 PM UTC\n...\n**Baylor:** Dave Aranda (fired Oct 25).\nAranda was 40-40 during his seven seasons in charge in Waco.\n(Chris Jones, IMAGN IMAGES)\n**NC State:** Dave Doeren (fired Oct. 24).\nDoeren was fired after 14 seasons leading the Wolfpack, com"
+  },
+  {
+   "title": "Five Baylor football players the next Bears coach should keep from transferring after Dave Aranda's firing",
+   "url": "https://247sports.com/college/baylor/Article/baylor-bears-football-players-transferring-dave-aranda-fired-jaelin-battle-ryelan-morris-london-smith-291874827/",
+   "date": "2026-10-28",
+   "snippet": "## Baylor's next coach will have work to do in the transfer portal, but these five players could provide a foundation for the 2027 roster\n...\nIn a move that seemed inevitable since last November barring a major turnaround this season, **Baylor** fired **Dave Aranda** on Sunday, s"
+  },
+  {
+   "title": "Dave Doeren rues transfer portal for stealing NFL talent ...",
+   "url": "https://sports.yahoo.com/articles/dave-doeren-rues-transfer-portal-222410876.html",
+   "date": "2026-10-27",
+   "snippet": "Dave Doeren rues transfer portal for stealing NFL talent from NC State after being fired - Yahoo Sports\n- Week 8 fantasy trade tips\n# Dave Doeren rues transfer portal for stealing NFL talent from NC State after being fired\nThe North Carolina State football program is looking for "
+  },
+  {
+   "title": "Dave Doeren sounds off on NC State after firing: 'Resources need to match the expectations'",
+   "url": "https://www.usatoday.com/story/sports/ncaaf/acc/2026/10/27/dave-doeren-nc-state-football-nil-resources-comments-press-conference/92467483007/",
+   "date": "2026-10-27",
+   "snippet": "# Dave Doeren sounds off on NC State after firing: 'Resources need to match the expectations'\n...\nOct. 27, 2026, 7:08 p.m.\n...\nDave Doeren was dismissed at NC State on Saturday following the Wolfpack's 31-28 loss on the road to Stanford on Friday night.\n...\nAmong his most notable"
+  },
+  {
+   "title": "10 NC State football players the next Wolfpack coach should keep from transferring after Dave Doeren's firing",
+   "url": "https://247sports.com/nba/milwaukee-bucks/longformarticle/dave-doeren-fired-nc-state-football-players-tranferring-spike-sowells-jr-tyreek-copper-ronnie-royal-iii-will-wilson-291760730/",
+   "date": "2026-10-26",
+   "snippet": "10 NC State football players the next Wolfpack coach should keep from transferring after Dave Doeren's firing\n...\n# 10 NC State football players the next Wolfpack coach should keep from transferring after Dave Doeren's firing\n## NC State's next coach will have work to do in the t"
+  },
+  {
+   "title": "Fired NC State football coach Dave Doeren says he'll 'always be cheering for the Wolfpack'",
+   "url": "https://www.houstonchronicle.com/sports/article/fired-nc-state-football-coach-dave-doeren-says-22497477.php",
+   "date": "2026-10-27",
+   "snippet": "RALEIGH, N.C. (AP) \u2014 These are unusual days for former N.C. State coach Dave Doeren.\nHe isn't sure exactly what comes next after he was fired over the weekend midway through his 14th season.\n...\nHe spoke about the challenges of the changing landscape of college athletics with fre"
+  },
+  {
+   "title": "Five Baylor football players the next Bears coach should keep from transferring after Dave Aranda's firing",
+   "url": "https://247sports.com/high-school/washington/article/baylor-bears-football-players-transferring-dave-aranda-fired-jaelin-battle-ryelan-morris-london-smith-291874827/",
+   "date": "2026-10-28",
+   "snippet": "Five Baylor football players the next Bears coach should keep from transferring after Dave Aranda's firing\n...\n# Five Baylor football players the next Bears coach should keep from transferring after Dave Aranda's firing\n## Baylor's next coach will have work to do in the transfer "
+  },
+  {
+   "title": "Ten players Maryland's next coach must keep out of transfer portal after Mike Locksley's departure",
+   "url": "https://247sports.com/high-school/pennsylvania/Article/ten-players-maryland-coach-must-keep-transfer-portal-mike-locksley-291582309/",
+   "date": "2026-10-21",
+   "snippet": "Ten players Maryland's next coach must keep out of transfer portal after Mike Locksley's departure\n...\n## A look at 10 players the successor to ousted Maryland coach Mike Locksley must retain.\n...\n**Maryland** and coach **Mike Locksley** **parted ways** Tuesday, and with the exci"
+  },
+  {
+   "title": "Ten Terps Mike Locksley's successor needs to retain while the transfer portals bubbles to get them",
+   "url": "https://247sports.com/article/mike-locksley-fired-transfer-portal-top-targets-malik-washington-291582309/",
+   "date": "2026-10-21",
+   "snippet": "Maryland and coach Mike Locksley parted ways Tuesday, and with the excitement of a new coaching search comes the uncertainty it creates for a roster.\nIt was widely considered across the Big Ten that the talent on the Terps far outshined its on-field performance, and it means ther"
+  },
+  {
+   "title": "Ten players Maryland's next coach must keep out of ...",
+   "url": "https://247sports.com/article/ten-players-maryland-coach-must-keep-transfer-portal-mike-locksley-291582309/",
+   "date": "2026-10-21",
+   "snippet": "Ten players Maryland's next coach must keep out of transfer portal after Mike Locksley's departure\n...\n# Ten players Maryland's next coach must keep out of transfer portal after Mike Locksley's departure\n## A look at 10 players the successor to ousted Maryland coach Mike Locksley"
+  },
+  {
+   "title": "Maryland commit reactions to Mike Locksley's ouster: Decommitments, shock, recruitments reopening",
+   "url": "https://247sports.com/college/maryland/article/maryland-commit-reactions-mike-locksley-decommitments-recruitments-291583577/",
+   "date": "2026-10-21",
+   "snippet": "## Recruits talk about Maryland's parting with coach Mike Locksley and their plans moving forward.\nMaryland's decision to fire **Mike Locksley** came while many prospects were in class Wednesday, but it is not coming as a huge surprise since it is a bye week for the Terps and his"
+  },
+  {
+   "title": "Five Baylor football players the next Bears coach should keep from transferring after Dave Aranda's firing",
+   "url": "https://247sports.com/college/west-virginia/article/baylor-bears-football-players-transferring-dave-aranda-fired-jaelin-battle-ryelan-morris-london-smith-291874827/",
+   "date": "2026-10-28",
+   "snippet": "Five Baylor football players the next Bears coach should keep from transferring after Dave Aranda's firing\n...\n# Five Baylor football players the next Bears coach should keep from transferring after Dave Aranda's firing\n## Baylor's next coach will have work to do in the transfer "
+  },
+  {
+   "title": "Maryland football coaching search scoop: a $50 million man, a Terp interested and an NFL \"defensive genius.\"",
+   "url": "https://247sports.com/college/baylor/article/maryland-football-coaching-search-scoop-a-50-million-man-a-terp-interested-and-an-nfl-defensive-genius-291873794/",
+   "date": "2026-10-28",
+   "snippet": "# Five Baylor football players the next Bears coach should keep from transferring after Dave Aranda's firing\n## Baylor's next coach will have work to do in the transfer portal, but these five players could provide a foundation for the 2027 roster\n...\nIn a move that seemed inevita"
+  },
+  {
+   "title": "Maryland football coaching hot board, version 1.0: 13 candidates to replace Mike Locksley",
+   "url": "https://247sports.com/college/transfer-portal/LongFormArticle/maryland-football-coaching-search-candidates-locksley-291581495/",
+   "date": "2026-10-21",
+   "snippet": "**Maryland** fired football coach **Mike Locksley** on Wednesday after a 2-5 start, ending an eight-year tenure that produced a 38-49 overall record and a 16-47 mark in Big Ten play.\n...\nSmith has said the program will launch a **national search** for Locksley's replacement.\n...\n"
+  },
+  {
+   "title": "Maryland football stars uncertain about futures after Locksley exit",
+   "url": "https://www.capitalgazette.com/2026/10/27/maryland-football-malik-washington-sidney-stewart-futures-mike-locksley-firing/",
+   "date": "2026-10-27",
+   "snippet": "# Maryland football stars uncertain about futures after Locksley exit\n## Malik Washington, Sidney Stewart noncommittal on returning to College Park in 2027\nMaryland quarterback Malik Washington, shown earlier this season, is one of the top Terps players who could enter the transf"
+  },
+  {
+   "title": "NC State: Possible Transfers to Watch",
+   "url": "https://www.yardbarker.com/general_sports/articles/nc_state_possible_transfers_to_watch/s1_17106_44474868",
+   "date": "2026-10-26",
+   "snippet": "# NC State: Possible Transfers to Watch\n...\nWith head coach Dave Doeren being fired on Saturday morning, NC State players will have a 15-day window to enter the transfer portal five days after a new head coach is hired or publicly announced.\nHere are five players to keep an eye o"
+  },
+  {
+   "title": "Maryland football stars uncertain about futures after Locksley exit",
+   "url": "https://www.baltimoresun.com/2026/10/27/maryland-football-malik-washington-sidney-stewart-futures-mike-locksley-firing/",
+   "date": "2026-10-27",
+   "snippet": "The quarterback, fresh off a record-setting freshman campaign, announced he would remain in College Park in front of a packed Xfinity Center crowd during a men's basketball game, expressing confidence in the program Mike Locksley was building.\nOn Tuesday, six days after Locksley'"
+  },
+  {
+   "title": "NC State Football 2026: Stats, Schedule, Results | CollegeFFB",
+   "url": "https://www.collegeffb.com/cfb-hub/schools/nc-state/",
+   "date": "2026-10-28",
+   "snippet": "# NC State Football , 2026\nCJ Bailey had his best game of the season in Week 8 against Stanford, scoring 24.1 CollegeFFB points with 256 passing yards and 2 touchdowns.\n...\n## Top CollegeFFB scorer\nCJ Bailey leads NC State's CollegeFFB scorers with 131.2 points this season, price"
+  },
+  {
+   "title": "Who could replace Doeren at NC State, what are the roster, recruiting priorities?",
+   "url": "https://www.espn.co.uk/college-football/story/_/id/50270580/nc-state-doeren-candidates-roster",
+   "date": "2026-10-24",
+   "snippet": "# Who could replace Doeren at NC State, what are the roster, recruiting priorities?\n## Five important players to retain\n**QB CJ Bailey**: Bailey had to become NC State's starting QB three games into his true freshman season and has produced the second-most total yards (7,952) and"
+  },
+  {
+   "title": "Targets",
+   "url": "https://247sports.com/college/maryland/Season/2026-Basketball/Targets/",
+   "date": null,
+   "snippet": "Is Malik Washington going to have a breakout season?\nHere's what the numbers and history tell us"
+  },
+  {
+   "title": "InsideMDSports - Maryland Terrapins Basketball, Football & Recruiting Home",
+   "url": "https://www.247sports.com/college/maryland/",
+   "date": "2026-10-29",
+   "snippet": "## NCAAB Crystal Balls\nMaryland football's Malik Washington, Sidney Stewart's candid reactions to \"stunning\" Mike Locksley departure"
+  },
+  {
+   "title": "Malik Washington, Maryland Terrapins, QB - News, Stats, Bio",
+   "url": "https://www.cbssports.com/college-football/players/28906511/malik-washington/",
+   "date": "2026-10-21",
+   "snippet": "# Malik Washington\n- YDS 1615\n- TD 9\n- YDS/G 230.7\n...\n## Next Game\n#### 2026 Passing\n|STATS|CMP|ATT|PCT|YDS|YDS/G|TD|INT|RATE|\n|--|--|--|--|--|--|--|--|--|\n|Regular Season|155|260|59.6|1615|230.7|9|6|118.6|"
+  }
+ ],
+ "usage": {
+  "cost_usd": 0.0263,
+  "agents": 4,
+  "agents_failed": 0
+ },
+ "ms": 75648,
+ "dropped_unsourced": 0,
+ "candidates": 18
+}

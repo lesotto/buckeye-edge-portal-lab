@@ -1,0 +1,245 @@
+WEBVTT
+
+1
+00:00:00.122 --> 00:00:01.198
+Every January,
+
+2
+00:00:01.218 --> 00:00:03.301
+Ohio State's staff gets about ten days to sort
+
+3
+00:00:03.321 --> 00:00:06.186
+through thousands of names in the transfer portal.
+
+4
+00:00:06.206 --> 00:00:10.196
+Most of that work still happens in hallways, film rooms, and spreadsheets.
+
+5
+00:00:10.216 --> 00:00:14.345
+Here's how Buckeye Edge helps, and what it will, and won't, do.
+
+6
+00:00:15.109 --> 00:00:16.984
+Year one is a decision aid, not a crystal ball.
+
+7
+00:00:17.004 --> 00:00:19.291
+It doesn't pick players.
+
+8
+00:00:19.311 --> 00:00:23.922
+It gathers what's public, organizes what your staff already says and grades,
+
+9
+00:00:23.942 --> 00:00:24.562
+and puts it all in one place.
+
+10
+00:00:24.582 --> 00:00:27.784
+So you can look at every quarterback in the portal,
+
+11
+00:00:27.804 --> 00:00:31.164
+and every one who might enter, faster, using your own method.
+
+12
+00:00:31.184 --> 00:00:32.386
+Coaches decide.
+
+13
+00:00:32.406 --> 00:00:34.015
+The system keeps score.
+
+14
+00:00:34.866 --> 00:00:36.178
+Here's the loop.
+
+15
+00:00:36.198 --> 00:00:38.820
+Portal Watch flags players who look likely to enter,
+
+16
+00:00:38.840 --> 00:00:41.137
+using signals we tested on real rosters,
+
+17
+00:00:41.157 --> 00:00:43.940
+like Group of Five players who outperform their level.
+
+18
+00:00:43.960 --> 00:00:47.012
+Staff bots research them, and show their sources.
+
+19
+00:00:47.032 --> 00:00:49.712
+Coaches talk to Edge in the hallway or the film room,
+
+20
+00:00:49.732 --> 00:00:52.324
+on a phone, a tablet, or the big screen.
+
+21
+00:00:52.344 --> 00:00:55.025
+Edge answers out loud, and builds the report: roster needs,
+
+22
+00:00:55.045 --> 00:00:59.294
+the Monday brief, film-room prep, the selection board.
+
+23
+00:00:59.314 --> 00:01:01.925
+Anything that would contact someone waits for approval.
+
+24
+00:01:02.646 --> 00:01:05.369
+So why not predict outcomes right away?
+
+25
+00:01:05.389 --> 00:01:06.162
+Because the data is noisy.
+
+26
+00:01:06.182 --> 00:01:10.098
+Our methodology lead, Dr. Robert Rippee, points to four sources of variance.
+
+27
+00:01:10.118 --> 00:01:12.064
+One: how people grade film.
+
+28
+00:01:12.084 --> 00:01:13.593
+Two evaluators can watch the same ten
+
+29
+00:01:13.613 --> 00:01:16.294
+quarterbacks and disagree on most of them.
+
+30
+00:01:16.314 --> 00:01:18.006
+Two: program effects.
+
+31
+00:01:18.026 --> 00:01:20.469
+A quarterback who dominated at a smaller
+
+32
+00:01:20.489 --> 00:01:22.586
+program faces a different world in the Big Ten.
+
+33
+00:01:22.606 --> 00:01:27.178
+Three: whether the measures themselves are reliable and valid.
+
+34
+00:01:27.198 --> 00:01:31.007
+And four: outcomes, what actually happened to the players we rated.
+
+35
+00:01:31.873 --> 00:01:34.784
+In plain terms, we're trying to explain the error.
+
+36
+00:01:34.804 --> 00:01:39.342
+If we can explain about half of it, a prediction tool becomes worth building.
+
+37
+00:01:39.362 --> 00:01:42.803
+Until then, a model would just carry the noise forward.
+
+38
+00:01:43.616 --> 00:01:46.020
+So this year starts with listening.
+
+39
+00:01:46.040 --> 00:01:49.923
+Before December: a demo for the general manager and head coach,
+
+40
+00:01:49.943 --> 00:01:52.542
+a session to define what success looks like,
+
+41
+00:01:52.562 --> 00:01:57.303
+including three ideal players at each position, and the needs assessment.
+
+42
+00:01:57.323 --> 00:02:00.359
+During the portal window, January fourth through the thirteenth,
+
+43
+00:02:00.379 --> 00:02:02.738
+a small team observes, with permission,
+
+44
+00:02:02.758 --> 00:02:05.872
+and records film sessions as coaches think out loud,
+
+45
+00:02:05.892 --> 00:02:08.121
+like the Manning brothers' broadcast.
+
+46
+00:02:08.142 --> 00:02:10.594
+Those transcripts become the data set.
+
+47
+00:02:10.614 --> 00:02:14.235
+After the window, we compare speed and coverage against last year.
+
+48
+00:02:15.249 --> 00:02:19.235
+Year two: write down Ohio State's own standard measures,
+
+49
+00:02:19.255 --> 00:02:21.238
+expand to more skill positions,
+
+50
+00:02:21.258 --> 00:02:25.231
+map program effects, and check the model against the 2024 and 2025 classes,
+
+51
+00:02:25.251 --> 00:02:27.059
+where we already know the answers.
+
+52
+00:02:27.079 --> 00:02:32.374
+Year three: computer-vision agents measure film the way your staff defined it.
+
+53
+00:02:32.394 --> 00:02:35.494
+And, only if validation holds up,
+
+54
+00:02:35.514 --> 00:02:37.987
+a predictor that estimates how likely a player
+
+55
+00:02:38.007 --> 00:02:40.986
+is to succeed at Ohio State specifically.
+
+56
+00:02:41.006 --> 00:02:43.915
+Beyond that, more positions as the data allows.
+
+57
+00:02:44.724 --> 00:02:49.223
+None of this starts without approvals: a sponsor, a data-sharing agreement,
+
+58
+00:02:49.243 --> 00:02:52.633
+consent to record, and a privacy and compliance review.
+
+59
+00:02:52.653 --> 00:02:55.800
+Those come first, and dates stay open until they're signed.
+
+60
+00:02:55.820 --> 00:02:58.006
+Open the How It Works tab to take the tour,
+
+61
+00:02:58.026 --> 00:03:01.538
+read the questions coaches ask most, or just ask Edge.
