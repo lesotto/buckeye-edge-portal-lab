@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Buckeye Edge · Portal Lab v8 · Nov 6 Review Build</title>
+<meta name="theme-color" content="#15171b" />
+<link rel="manifest" href="./manifest.webmanifest" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<script>try{if(matchMedia('(prefers-color-scheme: dark)').matches)document.documentElement.dataset.theme='dark'}catch(e){}</script>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 24 24%27%3E%3Crect width=%2724%27 height=%2724%27 rx=%275%27 fill=%27%2315171b%27/%3E%3Cpath d=%27M12 4 20 19H4z%27 fill=%27%23ba0c2f%27/%3E%3Ccircle cx=%2712%27 cy=%2714%27 r=%272.4%27 fill=%27%23fff%27/%3E%3C/svg%3E" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=IBM+Plex+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+<div class="shell">
+  <aside class="side">
+    <div class="brand">
+      <div class="brand-row"><span class="mark" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24"><path d="M12 3 21 20H3z" fill="#ba0c2f"/><circle cx="12" cy="14.2" r="2.6" fill="#fff"/></svg></span><div class="wordmark">BUCKEYE <em>EDGE</em></div></div>
+      <div class="brand-sub">Portal Lab v8 · Nov 6 Review Build</div>
+    </div>
+    <div class="mode-sw" id="mode-sw"></div>
+    <nav class="nav" id="nav" aria-label="Primary"></nav>
+    <div class="side-foot"><div><span class="dot"></span>CEG + Bayesian engines in-browser</div><div>Run Journal · <b id="chain-n">0</b> receipts</div><div class="chain" id="chain-tip">—</div><div style="margin-top:6px">Portal Watch and Signal Test use real public data · other screens use fictional players unless labeled</div></div>
+  </aside>
+  <div class="main">
+    <nav class="mobile-nav" id="mnav" aria-label="Primary mobile"></nav>
+    <header class="topbar">
+      <div class="tb-title"><div class="crumb" id="crumb">Start Here</div><div class="sub" id="crumb-sub"></div></div>
+      <div class="sp"></div>
+      <div id="rp-bar" class="rp-barwrap"></div>
+      <div class="field inline pl-only"><label for="cfg-pos">Position group</label><select id="cfg-pos"></select></div>
+      <div class="field inline pl-only pl-def"><label for="cfg-def">Success =</label><select id="cfg-def"></select></div>
+      <span class="synthetic-pill">Synthetic data</span>
+    </header>
+    <main class="page" id="page"><div id="boot" class="bootmsg"><div class="skeleton" style="height:90px"></div><div class="skeleton" style="height:340px;margin-top:14px"></div><p class="note">Loading the recruiting platform and fitting the Portal Lab model…</p></div></main>
+    <footer class="foot">Concept demo built by FuzeBox. How It Works summarizes two recorded planning calls; dates other than the NCAA portal window are targets or TBD. Portal Watch, Signal Test, Real QB Backtest, College Data and Live Intel use real public data (CollegeFootballData.com, cited reporting); real players there carry a statistical pattern score, not a scouting report or a claim about intent. All other players, programs and outcomes are fictional. Not affiliated with, sponsored or endorsed by The Ohio State University, the NCAA or any data provider. Probabilities are associations from past transfers, not guarantees.</footer>
+  </div>
+</div>
+<div id="busy" class="busy" hidden><div><span class="spin"></span>Refitting the model…</div></div>
+<div id="toast" class="toast" hidden></div>
+<script>window.__API_BASE__ = "__PORT_8006__";</script>
+<script type="module" src="./js/app.js"></script>
+</body>
+</html>
