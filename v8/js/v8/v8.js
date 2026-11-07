@@ -3,7 +3,7 @@
 
 export const V8NAV = [
   { k: "whatsnew", label: "What Changed in v8" },
-  { k: "core", label: "Coach Core (1·2·6·7)" },
+  { k: "core", label: "Dan's Pages (1·2·6·7·8)" },
   { k: "grades", label: "Staff Grades & Decisions" },
   { k: "flags", label: "Flags to the GM" },
   { k: "market", label: "Market Analysis" },
@@ -13,7 +13,7 @@ export const V8NAV = [
 ];
 export const V8TITLES = {
   whatsnew: ["What Changed in v8", "Every requirement from the Nov 6 screen review, and where it now lives"],
-  core: ["Coach Core", "Dan's priority pages 1, 2, 6 and 7 from the v1 menu, in one place"],
+  core: ["Dan's Pages", "Pages 1, 2, 6, 7 and 8 from the original version, in one place"],
   grades: ["Staff Grades & Decisions", "Each expert input kept separately, attributed and dated, plus a readable decision log"],
   flags: ["Flags to the GM", "Coaches flag players to the GM inside the platform"],
   market: ["Market Analysis", "Is the market right, or just guessing? Signals other programs use, checked against what happened"],
@@ -69,7 +69,7 @@ const REQS = [
   ["Player profile: baseline to player", "5", "Approved layout kept. Profile now also lists each expert input separately with a decision log.", "player", "Built"],
   ["80% range on the posterior end", "5", "Marked on every profile as a plain-language band. Labeled as demo model until a method is approved.", "player", "Built · method pending"],
   ["Decision aid for Year Zero", "6", "Unvalidated numbers read as demo values; four fields kept separate.", "grades", "Built"],
-  ["Pages 1, 2, 6 and 7 first for coaches", "3, 7", "Coach Core groups v1 menu items 1 Portal Board, 2 Player Profile, 6 Deep Research, 7 Live Portal Intel.", "core", "Built · mapping to confirm"],
+  ["Pages 1, 2, 6, 7 and 8 first", "3, 7", "Now the top of the menu: 1 Portal Board, 2 Player Profile, 6 Deep Research, 7 Live Portal Intel, 8 Pilot Design, numbered as on the original version.", "board", "Built"],
   ["Market analysis", "8", "New screen: market signals vs. what happened after the move, with the arithmetic shown.", "market", "Built · fictional sample"],
   ["Build everything, show coaches simple views", "9", "Calibration, backtests and ontology stay in Analyst mode.", "core", "Built"],
   ["Personas and coach-to-GM channel", "10", "New Flags to the GM inbox; flag from any profile. Persona needs await the GM meeting.", "flags", "Built · personas open"],
@@ -99,9 +99,10 @@ function pageCore() {
   const it = [["1", "board", "Portal Board", "Ranked list per position. Staff grade moves the ranking under a rule shown on screen.", "\"I'm a big fan of this page.\""],
     ["2", "player", "Player Profile", "Baseline to player, what moves it, and now the 80% range band.", "\"It's exactly how I would present it.\""],
     ["6", "research", "Deep Research", "Cited public evidence that waits for staff review before it touches anything.", ""],
-    ["7", "live", "Live Portal Intel", "Who may enter, with sources. Reported intent is not confirmed entry.", ""]];
-  return `<div class="callout"><b>Dan: "The biggest movers at this point for our staff are 1, 2, 6, and 7."</b> (S1 16:11). In the v1 menu those are Portal Board, Player Profile, Deep Research and Live Portal Intel. Pages 4 and 5, calibration and ontology, are the ones Dan called mainly for him, so they stay in Analyst mode. The mapping still needs Dan's confirmation.</div>
-  <div class="v8core">${it.map(([n, k, t, d, q]) => `<button class="v8tile" data-go="${k}"><span class="v8n">${n}</span><b>${t}</b><span>${d}</span>${q ? `<em>${q}</em>` : ""}</button>`).join("")}</div>`;
+    ["7", "live", "Live Portal Intel", "Who may enter, with sources. Reported intent is not confirmed entry.", ""],
+    ["8", "setup", "Pilot Design", "How the pilot is tested: the staff inputs, the data plan and the validation steps.", ""]];
+  return `<div class="callout"><b>Dan: "The biggest movers at this point for our staff are 1, 2, 6, and 7."</b> (S1 16:11). These are pages 1, 2, 6, 7 and 8 as numbered on the original version: Portal Board, Player Profile, Deep Research, Live Portal Intel and Pilot Design. They now sit at the top of the menu. Calibration and ontology (pages 4 and 5) stay in Analyst mode.</div>
+  <div class="v8core five">${it.map(([n, k, t, d, q]) => `<button class="v8tile" data-go="${k}"><span class="v8n">${n}</span><b>${t}</b><span>${d}</span>${q ? `<em>${q}</em>` : ""}</button>`).join("")}</div>`;
 }
 function pageGrades(param) {
   const esc = X.esc, board = X.boardFor().slice().sort((a, b) => X.S.scores[b.id].shift - X.S.scores[a.id].shift);

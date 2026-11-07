@@ -172,13 +172,13 @@ const TITLES = {
   journal: ["FuzeBox Run Journal", "Append-only, hash-chained receipts for every fit, score and staff input"],
 };
 const V4 = [{ k: "watch", label: "Portal Watch" }, { k: "signals", label: "Signal Test" }];
-const STAFF = new Set([...V8KEYS, "board", "player", "research", "learn", "flow", "plan", "variance", "gaps", "tour", "faq", "glossary", "talk", "rooms", "lead", "bots", "devices", "watch", "signals", "roster", "likely", "live", "brief"]);
+const STAFF = new Set([...V8KEYS, "board", "player", "research", "setup", "learn", "flow", "plan", "variance", "gaps", "tour", "faq", "glossary", "talk", "rooms", "lead", "bots", "devices", "watch", "signals", "roster", "likely", "live", "brief"]);
 const MODE = { v: "staff" };
 const visible = (k) => MODE.v === "analyst" || STAFF.has(k);
 function route() {
   const h = location.hash.replace(/^#\/?/, "");
   const [s, p] = h.split("/");
-  return [V8NAV.some((n) => n.k === s) || V6NAV.some((n) => n.k === s) || V5NAV.some((n) => n.k === s) || V4.some((n) => n.k === s) || VNAV().some((n) => n.k === s) || isRP(s) ? s : "whatsnew", p ? decodeURIComponent(p) : undefined];
+  return [V8NAV.some((n) => n.k === s) || V6NAV.some((n) => n.k === s) || V5NAV.some((n) => n.k === s) || V4.some((n) => n.k === s) || VNAV().some((n) => n.k === s) || isRP(s) ? s : "board", p ? decodeURIComponent(p) : undefined];
 }
 const VNAV = () => NAV.filter((n) => n.k !== "college" || COLLEGE.health?.connected).map((n, i) => ({ ...n, n: String(i + 1) }));
 function go(s, p) { location.hash = "#/" + s + (p ? "/" + encodeURIComponent(p) : ""); }
@@ -189,12 +189,18 @@ function shell() {
   const groups = [...new Set(RP_NAV.map((n) => n.g))];
   $("#mode-sw").innerHTML = [["staff", "Staff"], ["analyst", "Analyst"]].map(([k, l]) => `<button data-mode="${k}" class="${MODE.v === k ? "on" : ""}" aria-pressed="${MODE.v === k}">${l}</button>`).join("");
   const b = (n, cls = "") => `<button data-go="${n.k}" class="${cls} ${screen === n.k ? "on" : ""}">${n.label}</button>`;
-  const v4 = `<div class="nav-sec">New in v8 · Nov 6 review</div>` + V8NAV.map((n) => b(n)).join("") + `<div class="nav-sec">How It Works</div>` + V6NAV.map((n) => b(n)).join("") + `<div class="nav-sec">Coach Surfaces</div>` + V5NAV.map((n) => b(n)).join("") + `<div class="nav-sec">Portal Watch</div>` + V4.map((n) => b(n)).join("");
+  const CORE = [["board", "1"], ["player", "2"], ["research", "6"], ["live", "7"], ["setup", "8"]];
+  const lbl = (k) => (VNAV().find((n) => n.k === k) || NAV.find((n) => n.k === k)).label;
+  const core = `<div class="nav-sec">Start here · Dan's pages</div>` + CORE.map(([k, n]) => `<button data-go="${k}" class="v8core-nav ${screen === k ? "on" : ""}"><span class="nn">${n}</span>${lbl(k)}</button>`).join("");
+  const tools = `<div class="nav-sec">Staff tools</div>` + V8NAV.filter((n) => !["whatsnew", "core"].includes(n.k)).map((n) => b(n)).join("");
+  const more = `<div class="nav-sec">Voice and devices</div>` + V5NAV.map((n) => b(n)).join("") + `<div class="nav-sec">Portal Watch</div>` + V4.map((n) => b(n)).join("") + `<div class="nav-sec">How It Works</div>` + V6NAV.map((n) => b(n)).join("");
   const rpG = groups.map((g) => { const items = RP_NAV.filter((n) => n.g === g && visible(n.k)); return items.length ? `<div class="nav-sec">${g}</div>` + items.map((n) => b(n)).join("") : ""; }).join("");
-  const lab = VNAV().filter((n) => !n.fz && visible(n.k)), fz = VNAV().filter((n) => n.fz && visible(n.k));
-  $("#nav").innerHTML = v4 + rpG + (lab.length ? `<div class="nav-sec">Transfer Portal Lab</div>` + lab.map((n) => b(n)).join("") : "") + (fz.length ? `<div class="nav-sec">FuzeBox OS</div>` + fz.map((n) => b(n, "fz")).join("") : "") +
-    (MODE.v === "staff" ? `<div class="nav-sec dim" style="text-transform:none;letter-spacing:0">Switch to Analyst for the model, backtests, ontology and the full recruiting platform.</div>` : "");
-  $("#mnav").innerHTML = `<button data-mode="${MODE.v === "staff" ? "analyst" : "staff"}">${MODE.v === "staff" ? "Analyst ▸" : "◂ Staff"}</button>` + V8NAV.map((n) => b(n)).join("") + V6NAV.map((n) => b(n)).join("") + V5NAV.map((n) => b(n)).join("") + V4.map((n) => b(n)).join("") + RP_NAV.filter((n) => visible(n.k)).map((n) => b(n)).join("") + VNAV().filter((n) => visible(n.k)).map((n) => b(n, n.fz ? "fz" : "")).join("");
+  const CK = CORE.map((c) => c[0]);
+  const lab = VNAV().filter((n) => !n.fz && visible(n.k) && !CK.includes(n.k)), fz = VNAV().filter((n) => n.fz && visible(n.k));
+  const news = `<div class="nav-sec">About this version</div>` + b(V8NAV.find((n) => n.k === "whatsnew"));
+  $("#nav").innerHTML = core + tools + more + rpG + (lab.length ? `<div class="nav-sec">Model and testing</div>` + lab.map((n) => b(n)).join("") : "") + (fz.length ? `<div class="nav-sec">FuzeBox OS</div>` + fz.map((n) => b(n, "fz")).join("") : "") +
+    (MODE.v === "staff" ? `<div class="nav-sec dim" style="text-transform:none;letter-spacing:0">Switch to Analyst for the model, backtests, ontology and the full recruiting platform.</div>` : "") + news;
+  $("#mnav").innerHTML = `<button data-mode="${MODE.v === "staff" ? "analyst" : "staff"}">${MODE.v === "staff" ? "Analyst ▸" : "◂ Staff"}</button>` + CORE.map(([k, n]) => `<button data-go="${k}" class="${screen === k ? "on" : ""}">${n} · ${lbl(k)}</button>`).join("") + V8NAV.filter((n) => !["whatsnew", "core"].includes(n.k)).map((n) => b(n)).join("") + V5NAV.map((n) => b(n)).join("") + V4.map((n) => b(n)).join("") + V6NAV.map((n) => b(n)).join("") + RP_NAV.filter((n) => visible(n.k)).map((n) => b(n)).join("") + lab.map((n) => b(n)).join("") + fz.map((n) => b(n, "fz")).join("") + b(V8NAV.find((n) => n.k === "whatsnew"));
   document.body.classList.toggle("rp-on", isRP(screen));
   document.body.classList.toggle("v4-screen", [...V8KEYS, "watch", "signals", "talk", "rooms", "lead", "bots", "devices", "learn", "flow", "plan", "variance", "gaps", "tour", "faq", "glossary"].includes(screen));
   document.body.classList.toggle("v5-talkscreen", screen === "talk");
@@ -763,7 +769,7 @@ function render() {
 // ---------------- events ----------------
 document.addEventListener("click", async (e) => {
   const md = e.target.closest("[data-mode]");
-  if (md) { MODE.v = md.dataset.mode; log("mode.switch", `Switch to ${MODE.v} view`, {}, {}, "staff"); const [sc] = route(); if (!visible(sc)) go("watch"); return render(); }
+  if (md) { MODE.v = md.dataset.mode; log("mode.switch", `Switch to ${MODE.v} view`, {}, {}, "staff"); const [sc] = route(); if (!visible(sc)) go("board"); return render(); }
   const t = e.target.closest("[data-go],[data-player],[data-act],[data-onto],[data-rc]");
   if (!t) return;
   if (t.dataset.go) return go(t.dataset.go);

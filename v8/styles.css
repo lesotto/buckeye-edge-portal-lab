@@ -1063,3 +1063,4 @@ tr.sel td { background:var(--scarlet-50); }
 .v8list { max-height:560px; overflow:auto; }
 .v8list table.t td, .v8list table.t th { padding-left:6px; padding-right:6px; }
 .v8list .small { font-size:11px; }
+.v8core.five > .v8tile:last-child { grid-column: 1 / -1; }
