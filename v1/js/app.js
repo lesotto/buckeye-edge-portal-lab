@@ -6,6 +6,7 @@ import { ONTOLOGY, ONTO_EDGES } from "./ontology.js";
 import * as RS from "./research.js";
 import { pageLive, bindLive, checkHealth, liveReady, L as LIVE } from "./live.js";
 import { pageCollege, bindCollege, checkCollege, C as COLLEGE } from "./college.js";
+import { feedHTML, bindFeed } from "./feed.js";
 
 const $ = (s) => document.querySelector(s);
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -317,7 +318,7 @@ function pageBoard() {
       }).join("")}</tbody></table></div>
     ${rows.length ? "" : `<div class="empty">No players match these filters.</div>`}
   </section>`;
-  return kpis + steps + table + `<p class="note" style="margin-top:12px">Change a staff grade in the table and the player is re-scored instantly and written to the Run Journal. A "Film review" flag means the staff grade and the rest of the evidence point in opposite directions — a film question, not a verdict.</p>`;
+  return kpis + feedHTML(P().name) + steps + table + `<p class="note" style="margin-top:12px">Change a staff grade in the table and the player is re-scored instantly and written to the Run Journal. A "Film review" flag means the staff grade and the rest of the evidence point in opposite directions — a film question, not a verdict.</p>`;
 }
 const kpi = (l, v, u, s) => `<div class="kpi"><div class="l">${l}</div><div class="v">${v}${u ? `<small>${u}</small>` : ""}</div><div class="s">${s}</div></div>`;
 
@@ -714,6 +715,7 @@ function toast(msg) { const el = $("#toast"); el.textContent = msg; el.hidden = 
   S.dataHash = await sha256(JSON.stringify(DATA.history));
   await log("dataset.load", "Load synthetic portal history + 2027 watch list", { history_rows: DATA.history.length, watch_list: DATA.board.length, classes: CYCLES.map((c) => c.id), positions: Object.keys(POSITIONS) }, { data_sha256: S.dataHash }, "observed");
   await refitAndLog("Initial fit");
+  bindFeed();
   bindLive({ render, log, toast, go });
   bindCollege({ render, log, toast, go });
   checkHealth(render);

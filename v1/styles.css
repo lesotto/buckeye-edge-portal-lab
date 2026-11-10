@@ -497,3 +497,16 @@ a.btn { text-decoration: none; display: inline-flex; align-items: center; }
 .cf-season { border-top: 1px solid var(--line); padding-top: 10px; margin-top: 10px; }
 .cf-box { display: grid; gap: 3px; margin-top: 8px; font-size: 11.5px; }
 @media (max-width: 640px) { .cf-bar { grid-template-columns: 40px 1fr 104px; } .cf-player { flex-direction: column; } }
+.lf-form { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 10px; }
+.lf-form input { flex: 1 1 320px; min-width: 0; padding: 7px 10px; border: 1px solid var(--line, #ddd); border-radius: 6px; font: inherit; font-size: 13px; }
+.lf-form select { padding: 6px 8px; border: 1px solid var(--line, #ddd); border-radius: 6px; font: inherit; font-size: 13px; }
+.lf-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; max-height: 420px; overflow-y: auto; }
+.lf-list li { border-top: 1px solid var(--line, #eee); padding-top: 9px; }
+.lf-list li:first-child { border-top: 0; padding-top: 0; }
+.lf-list a { font-weight: 600; font-size: 13.5px; color: var(--ink, #111); text-decoration: none; }
+.lf-list a:hover { color: var(--scarlet); text-decoration: underline; }
+.lf-meta { display: flex; gap: 10px; font-size: 11.5px; color: var(--ink-3, #666); margin-top: 2px; font-family: var(--font-mono, monospace); }
+.lf-list p { margin: 4px 0 0; font-size: 12.5px; color: var(--ink-2, #333); line-height: 1.45; }
+.lf-busy, .lf-err { font-size: 13px; color: var(--ink-3, #666); padding: 8px 0; }
+.lf-err { color: var(--sim, #b00020); }
+.lf-foot { margin: 10px 0 0; }
